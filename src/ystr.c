@@ -159,7 +159,7 @@ int main(int argc, char* argv[])
     else if (strcmp(argv[i], "comb-replace") == 0)
       func = ystr_comb_replace;
 
-
+  // if func exist, execute
   if (func)
     func(&arg);
 
